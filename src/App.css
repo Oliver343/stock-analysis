@@ -51,6 +51,10 @@
   width: 100px;
 }
 
+.buttonMain:hover {
+  background-color: #61bc40;
+}
+
 .logo {
   color: #489E2A;
   width: 100px;
