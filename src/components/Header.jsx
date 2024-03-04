@@ -5,7 +5,8 @@ export default function Header() {
         <div className="header">
             <div className="headerLeft">
                 <Logo />
-                <p className="headerItem">HeaderLeft</p>
+                <input  className="searchBar headerItem" type="text" placeholder="Search ticker symbol or stock name. (Ex: AAPL)" />
+                <button className="buttonMain headerItem">Search</button>
             </div>
             <div className="headerRight">
                 <p className="headerItem">HeaderRight</p>

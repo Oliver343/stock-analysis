@@ -6,7 +6,7 @@ export default function Home() {
     return(
     <div className="home">
         <Header />
-        TEST HOME
+        HOME PAGE CONTENT
     </div>
     )
 }
