@@ -35,12 +35,22 @@
 
 .searchBar {
   background-color: #C3C3C3;
-  color: black;
   width: 70%;
-  height: 30px;
+  height: 40px;
   border-radius: 20px;
   border: none;
   padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchBarInput {
+  background: none;
+  color: black;
+  width: 100%;
+  border: none;
+  height: 30px;
 }
 
 .buttonMain {
