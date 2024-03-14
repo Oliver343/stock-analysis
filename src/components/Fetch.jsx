@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 export default function Fetch() {
     const [displayQuote, setDisplayQuote] = useState('Loading')
-    const key = "" // Current URL doesnt require key
+    const key = "" // Add your key here
 
     useEffect(() => {
         fetchQuote()
